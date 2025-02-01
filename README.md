@@ -24,10 +24,10 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/defidan1/SKIP.git
 3. Navigate to the project folder:
-   ```bash
+```bash
    cd SKIP
 ```
- Step 2: Install Dependencies
+## Step 2: Install Dependencies
 1. Install the required Python libraries by running:
    ```bash
    pip install flask googletrans==4.0.0-rc1 langdetect transformers torch
