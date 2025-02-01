@@ -11,14 +11,14 @@ SKIP is a browser extension that simplifies terms of service and privacy policie
 
 ---
 
-## Installation
+### Installation
 
 ### Prerequisites
 Before you begin, ensure you have the following installed:
 - **Python 3.8 or higher**
 - **Google Chrome** (or another Chromium-based browser)
 
-### Step 1: Clone the Repository
+## Step 1: Clone the Repository
 1. Open your terminal or command prompt.
 2. Run the following command to clone the repository:
    ```bash
@@ -27,7 +27,7 @@ Before you begin, ensure you have the following installed:
 ```bash
  cd SKIP
 ```
-## Step 2: Install Dependencies
+ Step 2: Install Dependencies
 1. Install the required Python libraries by running:
    ```bash
    pip install flask googletrans==4.0.0-rc1 langdetect transformers torch
@@ -43,7 +43,7 @@ Before you begin, ensure you have the following installed:
 2. Enable **Developer mode** (toggle in the top-right corner).
 3. Click **Load unpacked** and select the **SKIP** folder.
 
-## Usage
+### Usage
 
 ## Summarize a Page
 1. Click the **SKIP** icon in your browser.
@@ -60,7 +60,7 @@ Before you begin, ensure you have the following installed:
 ## Feedback
 We'd love to hear your feedback! Click the **Feedback** button in the extension to share your thoughts.
 
-## Contributing
+### Contributing
 If you'd like to contibute to SKIP, please follow these steps:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix:
@@ -74,6 +74,6 @@ If you'd like to contibute to SKIP, please follow these steps:
    git push origin feature-name
 5. Open a pull request on GitHub.
 
-## License
+### License
 This project is licensed under the MIT License.
 See the **LICENSE** file for details.
